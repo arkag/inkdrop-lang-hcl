@@ -1,16 +1,15 @@
 {
-  "name": "lang-graphql",
-  "main": "./lib/lang-graphql",
+  "name": "lang-hcl",
+  "main": "./lib/lang-hcl",
   "version": "0.1.0",
-  "description": "GraphQL language mode for Inkdrop",
+  "description": "HCL language mode for Inkdrop",
   "keywords": [],
-  "repository": "https://github.com/inkdropapp/inkdrop-lang-graphql",
+  "repository": "https://github.com/arkag/inkdrop-lang-hcl",
   "license": "MIT",
   "engines": {
     "inkdrop": "^5.3.1"
   },
   "dependencies": {
-    "codemirror-graphql": "^1.2.12",
-    "graphql": "^16.3.0"
+    "codemirror-lang-hcl": "^0.0.0-beta.2"
   }
 }
